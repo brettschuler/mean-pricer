@@ -1,0 +1,64 @@
+info: [0mGET /api/uac/config [32m200 [0m117.586 ms - 41[0m
+
+info: [0mPOST /api/auth/validate [32m200 [0m340.440 ms - 20[0m
+
+info: [0mGET / [32m200 [0m61.434 ms - -[0m
+
+info: [0mGET /assets/js/gtag.js [32m200 [0m9.863 ms - 121[0m
+
+info: [0mGET /runtime-es2015.js [32m200 [0m13.850 ms - -[0m
+
+info: [0mGET /polyfills-es2015.js [32m200 [0m5.600 ms - -[0m
+
+info: [0mGET /main-es2015.js [32m200 [0m1.257 ms - -[0m
+
+info: [0mGET /styles-es2015.js [32m200 [0m2.110 ms - -[0m
+
+info: [0mGET /vendor-es2015.js [32m200 [0m1.341 ms - -[0m
+
+info: [0mGET /api/uac/config [32m200 [0m37.875 ms - 41[0m
+
+info: [0mGET /assets/images/logo.png [32m200 [0m1.641 ms - 1271[0m
+
+info: [0mGET /favicon.ico [32m200 [0m1.252 ms - 790[0m
+
+info: [0mGET /icomoon.ttf?pffws7 [32m200 [0m84.965 ms - -[0m
+
+info: [0mGET /assets/images/ajax-loading.gif [32m200 [0m91.996 ms - 2110[0m
+
+info: [0mPOST /api/auth/signUp [32m200 [0m399.419 ms - 301[0m
+
+info: [0mGET /api/uac/config [32m200 [0m2302.547 ms - 257[0m
+
+info: [0mGET /api/uac/config [32m200 [0m63.249 ms - 257[0m
+
+info: [0mGET /api/uac/config [32m200 [0m240.042 ms - 41[0m
+
+info: [0mGET /api/uac/config [32m200 [0m4.993 ms - 41[0m
+
+info: [0mPOST /api/auth/signUp [32m200 [0m558.856 ms - 54[0m
+
+info: [0mPOST /api/auth/validate [32m200 [0m62.937 ms - 19[0m
+
+info: [0mPOST /api/auth/signIn [32m200 [0m517.820 ms - 22[0m
+
+info: [0mPOST /api/auth/signIn [32m200 [0m27.737 ms - 22[0m
+
+info: [0mPOST /api/auth/signIn [32m200 [0m46.906 ms - 22[0m
+
+error: uncaughtException: Cannot read property 'user' of undefined
+TypeError: Cannot read property 'user' of undefined
+    at C:\Users\Brett\Documents\GitHub\MEANcore\server\services\email.service.js:8:47
+    at PassThrough.<anonymous> (C:\Users\Brett\Documents\GitHub\MEANcore\node_modules\nodemailer\lib\nodemailer.js:106:30)
+    at Object.onceWrapper (events.js:313:26)
+    at PassThrough.emit (events.js:223:5)
+    at ClientRequest.<anonymous> (C:\Users\Brett\Documents\GitHub\MEANcore\node_modules\nodemailer\lib\fetch\index.js:224:22)
+    at ClientRequest.emit (events.js:223:5)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:583:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+    at TLSSocket.socketOnData (_http_client.js:456:22)
+    at TLSSocket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:181:23) {"error":{},"stack":"TypeError: Cannot read property 'user' of undefined\n    at C:\\Users\\Brett\\Documents\\GitHub\\MEANcore\\server\\services\\email.service.js:8:47\n    at PassThrough.<anonymous> (C:\\Users\\Brett\\Documents\\GitHub\\MEANcore\\node_modules\\nodemailer\\lib\\nodemailer.js:106:30)\n    at Object.onceWrapper (events.js:313:26)\n    at PassThrough.emit (events.js:223:5)\n    at ClientRequest.<anonymous> (C:\\Users\\Brett\\Documents\\GitHub\\MEANcore\\node_modules\\nodemailer\\lib\\fetch\\index.js:224:22)\n    at ClientRequest.emit (events.js:223:5)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:583:27)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)\n    at TLSSocket.socketOnData (_http_client.js:456:22)\n    at TLSSocket.emit (events.js:223:5)\n    at addChunk (_stream_readable.js:309:12)\n    at readableAddChunk (_stream_readable.js:290:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:181:23)","exception":true,"date":"Tue Feb 18 2020 22:16:58 GMT-0600 (Central Standard Time)","process":{"pid":4564,"uid":null,"gid":null,"cwd":"C:\\Users\\Brett\\Documents\\GitHub\\MEANcore","execPath":"C:\\Program Files (x86)\\nodejs\\node.exe","version":"v12.14.1","argv":["C:\\Program Files (x86)\\nodejs\\node.exe","C:\\Users\\Brett\\Documents\\GitHub\\MEANcore\\server.js"],"memoryUsage":{"rss":39288832,"heapTotal":48578560,"heapUsed":45490836,"external":19744217}},"os":{"loadavg":[0,0,0],"uptime":6233},"trace":[{"column":47,"file":"C:\\Users\\Brett\\Documents\\GitHub\\MEANcore\\server\\services\\email.service.js","function":null,"line":8,"method":null,"native":false},{"column":30,"file":"C:\\Users\\Brett\\Documents\\GitHub\\MEANcore\\node_modules\\nodemailer\\lib\\nodemailer.js","function":null,"line":106,"method":null,"native":false},{"column":26,"file":"events.js","function":"Object.onceWrapper","line":313,"method":"onceWrapper","native":false},{"column":5,"file":"events.js","function":"PassThrough.emit","line":223,"method":"emit","native":false},{"column":22,"file":"C:\\Users\\Brett\\Documents\\GitHub\\MEANcore\\node_modules\\nodemailer\\lib\\fetch\\index.js","function":null,"line":224,"method":null,"native":false},{"column":5,"file":"events.js","function":"ClientRequest.emit","line":223,"method":"emit","native":false},{"column":27,"file":"_http_client.js","function":"HTTPParser.parserOnIncomingClient [as onIncoming]","line":583,"method":"parserOnIncomingClient [as onIncoming]","native":false},{"column":17,"file":"_http_common.js","function":"HTTPParser.parserOnHeadersComplete","line":115,"method":"parserOnHeadersComplete","native":false},{"column":22,"file":"_http_client.js","function":"TLSSocket.socketOnData","line":456,"method":"socketOnData","native":false},{"column":5,"file":"events.js","function":"TLSSocket.emit","line":223,"method":"emit","native":false},{"column":12,"file":"_stream_readable.js","function":"addChunk","line":309,"method":null,"native":false},{"column":11,"file":"_stream_readable.js","function":"readableAddChunk","line":290,"method":null,"native":false},{"column":10,"file":"_stream_readable.js","function":"TLSSocket.Readable.push","line":224,"method":"push","native":false},{"column":23,"file":"internal/stream_base_commons.js","function":"TLSWrap.onStreamRead","line":181,"method":"onStreamRead","native":false}]}
